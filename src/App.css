@@ -1,0 +1,25 @@
+@import url("./typograph/Typograph.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk';
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/images/background.jpg");
+}
+
+.container {
+  width: 95%;
+  max-width: 1520px;
+  height: 100%;
+  margin: 0 auto;
+}

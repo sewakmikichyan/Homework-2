@@ -1,0 +1,25 @@
+.burger {
+    width: 35px;
+    height: 25px;
+    background-color: transparent;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 100%;
+    height: 1.1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 575px) {
+    .burger {
+        display: flex;
+    }
+}
